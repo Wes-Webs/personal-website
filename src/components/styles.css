@@ -1,0 +1,110 @@
+/* Landing Page*/
+
+/*NavBar*/
+
+nav {
+  background-color: black;
+}
+
+a.navigation:hover {
+  border-bottom: 2px solid green;
+}
+
+@media (max-width: 992px) {
+  a.navigation:hover {
+      border-bottom: none;
+  }
+}
+
+.wes {
+  font-weight: lighter;
+  letter-spacing: 3px;
+}
+
+/*Main Article*/
+
+body {
+  margin: 0;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+#showcase {
+  background-image: url(./Photos/LandingPhotos/pexels-daniel-putzer-original.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/*Portfolio Section*/
+
+.portfolioSection {
+  background-color: black;
+}
+
+@media (min-width: 600px) {
+  .zoom img {
+      transition: transform .5s ease;
+  }
+
+  .zoom:hover img {
+      transform: scale(1.1);
+  }
+}
+/*About Section*/
+
+.aboutSection {
+  margin-top: 525px;
+}
+
+ul.aboutInfo {
+  list-style-type: none;
+}
+
+@media (max-width: 600px) {
+  .wd {
+      padding-top: 25px;
+  }
+}
+
+/*Contact*/
+
+.contactIcon {
+  color: black;
+}
+
+a.contactIcon:link {
+  text-decoration: none;
+  color: black;
+}
+
+a.contactIcon:hover {
+  color: #198754;
+}
+
+@media (max-width: 600px) {
+  .social {
+      padding-bottom: 25px;
+  }
+}
+
+/*Footer*/
+
+footer {
+  background-color: black;
+  color: white;
+}
+.footIcon {
+  color: white;
+}
+
+a.footIcon:link {
+  text-decoration: none;
+  color: white;
+}
+
+a.footIcon:hover {
+  color: #198754;
+}
